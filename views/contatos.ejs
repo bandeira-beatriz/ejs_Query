@@ -6,6 +6,20 @@
     <title>Document</title>
 </head>
 <body>
+    <ol>
+        <% for(let i=0; i < contatos.length; i++){ %>
+            <li>
+                <%= contatos[i].NOME %>
+            </li>
+            <li>
+                 <%= contatos[i].TELEFONE %>
+            </li>
+            <li>
+                 <%= contatos[i].EMAIL %>
+            </li>
+            <% } %>
+    </ol>
+
     <h1>Lista de Contatos</h1>
 
         <form action="/contatos" method="post">

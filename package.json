@@ -1,0 +1,27 @@
+{
+  "name": "ejs_query",
+  "version": "1.0.0",
+  "main": "db.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bandeira-beatriz/ejs_Query.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bandeira-beatriz/ejs_Query/issues"
+  },
+  "homepage": "https://github.com/bandeira-beatriz/ejs_Query#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  }
+}
